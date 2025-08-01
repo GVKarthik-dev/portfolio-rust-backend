@@ -1,0 +1,7 @@
+1. To start a new project in ruset we can use `cargo new <project name> --bin`
+
+2. You can change cargo new to use a different version control system or no version control system by using the `--vcs` flag. 
+
+3. Run `cargo new --help` to see the available options.
+
+4. 

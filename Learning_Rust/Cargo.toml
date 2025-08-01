@@ -1,0 +1,13 @@
+[package]
+name = "Learning_Rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.9"
+colored = "3"
+directories = "6.0"
+
+[[bin]]
+name = "Learning_Rust"
+path = "src/main.rs"
