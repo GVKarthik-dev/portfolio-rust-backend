@@ -1,0 +1,9 @@
+target/
+.git
+.gitignore
+Cargo.lock
+.env
+.env.local
+README.md
+*.md
+.DS_Store

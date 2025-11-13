@@ -1,0 +1,26 @@
+[package]
+name = "portfolio-api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+actix-rt = "2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+uuid = { version = "1.0", features = ["v4", "serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+bcrypt = "0.15"
+jsonwebtoken = "9"
+dotenv = "0.15"
+env_logger = "0.11"
+log = "0.4"
+anyhow = "1.0"
+thiserror = "1.0"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
